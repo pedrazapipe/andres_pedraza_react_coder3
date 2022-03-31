@@ -1,0 +1,186 @@
+/* Inicio globals */
+
+html {
+
+    font-size: 62.5%;
+    font-family: arlington;
+    background-color: rgba(250, 204, 204, 0.281);
+    
+}
+
+/* Final globals */
+
+
+/* Inicio header */
+
+header {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 5rem;
+
+    .header__titulo {
+
+        font-size: 3.5em;
+        margin: 2rem;
+        color: white;
+
+    }
+
+    .header__navegacion {
+
+        ul {
+    
+            list-style-type: none;
+    
+        }
+
+        li {
+
+            display: inline;
+            margin: 2rem;
+
+        }
+
+        a {
+
+            color: #01c4e7;
+            text-decoration: none;
+            border-radius: 1%;
+            font-size: 3em;
+            padding: 3rem;
+
+        }
+
+    }
+
+    .header__carrito {
+
+        img {
+
+            height: 200px;
+
+        }
+
+    }
+
+}
+
+/* Final header */
+
+
+
+/* Inicio bodyMain */
+
+.body__main {
+
+    .titulo__pedidos {
+
+        color: #01c4e7;
+        font-size: 3em;
+        text-align: center;
+
+    }
+
+}
+
+
+/* Final bodyMain */
+
+
+
+/* Inicio footer */
+
+.footer__funkos {
+
+    display: flex;
+    justify-content: space-around;
+
+    .footer__info {
+
+        background-color: #2ef8a0;
+        margin: 1rem;
+        border-radius: 20px;
+        padding-right: 3rem;
+    
+        h2 {
+
+            font-size: 2.5em;
+            text-align: center;
+            margin: 2.5rem;
+            
+
+        }
+
+        ul {
+
+            list-style-type: none;
+            
+
+        }
+
+        li {
+
+            margin: 1rem;
+            font-size: 2em;
+            text-align: center;
+
+        }
+
+    }
+
+    .footer__contacto {
+
+        background-color: #ff0534;            
+        margin: 1rem;
+        border-radius: 20px;
+        padding-right: 3rem;
+
+        h2 {
+
+            font-size: 2.5em;
+            text-align: center;
+            margin: 2.5rem;
+
+        }
+
+        ul {
+
+            list-style-type: none;
+
+        }
+
+        li {
+
+            margin: 1rem;
+            font-size: 2em;
+
+        }
+
+    
+    }
+
+    .footer__pagos {
+
+        background-color: #f82d97;        
+        margin: 1rem;
+        border-radius: 20px;
+        padding-right: rem;
+
+        h2 {
+            
+            font-size: 2.5em;
+            text-align: center;
+            margin: 2.5rem;
+            
+
+        }
+
+
+    }
+
+}
+
+/* Final footer */
